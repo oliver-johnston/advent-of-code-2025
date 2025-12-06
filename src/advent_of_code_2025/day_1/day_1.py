@@ -11,13 +11,10 @@ def part_1(input_file_path):
     pos = 50
 
     for line in lines:
-        if line[0] == 'L':
-            pos -= int(line[1:])
-        else:
-            pos += int(line[1:])
-
+        direction = -1 if line[0] == 'L' else 1
+        amount = int(line[1:])
+        pos += direction * amount
         pos = pos % 100
-        
         if pos == 0:
             count += 1
 
@@ -31,15 +28,11 @@ def part_2(input_file_path):
 
     # probably some maths way to do this, but brute forcing it one at a time works fine
     for line in lines:
-        i = int(line[1:])
-        for _ in range(i):
-            if line[0] == 'L':
-                pos -= 1
-            else:
-                pos += 1
-
-            pos = pos % 100
-        
+        direction = -1 if line[0] == 'L' else 1
+        amount = int(line[1:])
+        for _ in range(amount):
+            pos += direction
+            pos = pos % 100        
             if pos == 0:
                 count += 1
 
