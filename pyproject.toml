@@ -8,6 +8,7 @@ dependencies = []
 
 [project.scripts]
 day1 = "advent_of_code_2025:day1"
+day2 = "advent_of_code_2025:day2"
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
