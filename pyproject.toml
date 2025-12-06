@@ -7,8 +7,18 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-day1 = "advent_of_code_2025:day1"
-day2 = "advent_of_code_2025:day2"
+day1 = "advent_of_code_2025:day_1.run"
+day2 = "advent_of_code_2025:day_2.run"
+day3 = "advent_of_code_2025:day_3.run"
+day4 = "advent_of_code_2025:day_4.run"
+day5 = "advent_of_code_2025:day_5.run"
+day6 = "advent_of_code_2025:day_6.run"
+day7 = "advent_of_code_2025:day_7.run"
+day8 = "advent_of_code_2025:day_8.run"
+day9 = "advent_of_code_2025:day_9.run"
+day10 = "advent_of_code_2025:day_10.run"
+day11 = "advent_of_code_2025:day_11.run"
+day12 = "advent_of_code_2025:day_12.run"
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
