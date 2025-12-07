@@ -2,7 +2,7 @@ from advent_of_code_2025.day_1 import day_1
 from advent_of_code_2025.day_2 import day_2
 from advent_of_code_2025.day_3 import day_3
 from advent_of_code_2025.day_4 import day_4
-#from advent_of_code_2025.day_5 import day_5
+from advent_of_code_2025.day_5 import day_5
 #from advent_of_code_2025.day_6 import day_6
 #from advent_of_code_2025.day_7 import day_7
 #from advent_of_code_2025.day_8 import day_8
